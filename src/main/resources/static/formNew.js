@@ -23,7 +23,7 @@ function createNewUser() {
             },
             body: JSON.stringify({
                 username: formNew.username.value,
-                lastname: formNew.lastname.value,
+                surname: formNew.surname.value,
                 age: formNew.age.value,
                 email: formNew.email.value,
                 password: formNew.password.value,

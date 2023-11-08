@@ -13,7 +13,7 @@ function getCurrentUser() {
             dataOfUser += `<tr>
             <td>${user.id}</td>
             <td>${user.username}</td>
-            <td>${user.lastname}</td>
+            <td>${user.surname}</td>
             <td>${user.age}</td>
             <td>${user.email}</td>
             <td>${rolesStringUser}</td>

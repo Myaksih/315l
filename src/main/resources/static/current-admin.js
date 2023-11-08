@@ -13,7 +13,7 @@ function getCurrentAdmin() {
             data += `<tr>
             <td>${userAdmin.id}</td>
             <td>${userAdmin.username}</td>
-            <td>${userAdmin.lastname}</td>
+            <td>${userAdmin.surname}</td>
             <td>${userAdmin.age}</td>
             <td>${userAdmin.email}</td>
             <td>${rolesStringAdmin}</td>
