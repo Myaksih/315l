@@ -19,7 +19,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     private final UserDetailsService userDetailsService;
-    private final SuccessUserHandler successUserHandler; //логика перенаправления юзеров по ролям на нужные url
+    private final SuccessUserHandler successUserHandler;
 
     @Autowired
     public WebSecurityConfig(UserDetailsService userDetailsService, SuccessUserHandler successUserHandler) {
